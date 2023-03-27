@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/spotify-favicon.svg">
+    <title>Spotify</title>
+</head>
+<body>
+<!-- BACK GROUND OF HEADER -->
+<div class="bg-main">
+    <div class="bg-main-img"></div>
+</div>
+<!-- NAVIGATION BAR -->
+<header class="navbar navbar-dark navbar-fixed-top" role="banner">
+    <div class="container-fluid">
+        <!-- LOGO SPOTIFY -->
+        <div class="navbar-brand">
+            <a href="#" class="navbar-logo-container">
+                <span class="navbar-logo"></span>
+                <span class="navbar-logo-text">Spotify</span>
+            </a>
+        </div>
+        <!-- NAVBAR ANDS LINKS -->
+        <nav class="navbar-nav">
+            <div class="navbar-container" id="navbarNav">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Explorer</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Premium</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Help</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Download</a></li>
+                    <li class="vr" role="separator"> </li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sing Up</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Log In</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+<!-- HEADER SLIDER -->
+<div class="jumbotron">
+    <!-- CAROUSEL -->
+    <div id="carousel-tour" class="carousel slide">
+        <!-- CAROUSEL INDICATORS -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel-tour" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel-tour" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel-tour" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carousel-tour" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <!-- CAROUSEL CONTENT -->
+        <div class="carousel-inner">
+            <!-- FIRST ITEM -->
+          <div class="carousel-item active">
+            
+            <div class="carousel-item-container">
+
+                <h1>
+                    <span class="text-white"> 
+                        3 months of premium for $0.99
+                    </span>
+                </h1>
+                <a href="#" class="btn btn-lg btn-primary js-button-hero-get-premium">Lear More</a>
+                <p class="text-center text-white text-signup">
+                    Or Sign up for our <a href="#" class="js-goto-signup">Free Service</a> 
+                </p>
+            </div>
+          </div>
+
+          <!-- SECOND ITEM -->
+          <div class="carousel-item">
+            <div class="carousel-item-container">
+                <h1>
+                    <span class="text-white">
+                        Premium for your whole family.<br> Just $14.99.
+                    </span>
+                </h1>
+                <a href="#" class="btn btn-primary btn-lg js-button-hero-family">
+                    LEARN MORE
+                </a>
+            </div>
+          </div>
+
+          <!-- THIRD ITEM -->
+          <div class="carousel-item">
+            <div class="carousel-item-container">
+                <h1>
+                    <span class="text-white">
+                        Students get 50% off Premium.
+                    </span>
+                </h1>
+                <a href="#" class="btn btn-primary btn-lg js-button-hero-studens">
+                    LEARN MORE
+                </a>
+            </div>
+          </div>
+
+          <!-- FOURTH ITEM -->
+          <div class="carousel-item">
+            <div class="carousel-item-container">
+                <h1>
+                    <span class="text-white">Play Spotify on Playstation®. </span>
+                </h1>
+                <a href="#" class="btn btn-primary btn-lg js-button-herp-playstation">
+                    LEARN MORE
+                </a>
+            </div>
+          </div>
+
+
+
+
+        </div>
+        <!-- CAROUSEL CONTROLS BUTTONS -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-tour" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-tour" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- END OF CAROUSEL -->
+</div>
+
+<div class="container">
+    <a class="btn-scroll" name="whats-on-spotify" href="#whats-on-spotify" >
+        <span class="btn-scroll-text">LEARN ABOUT SPOTIFY</span>
+    </a>
+</div>
+
+<!-- What's on? section  -->
+<div class="jumbotron2 jumbotron-whats-on bg-white">
+    <div class="container">
+        <div class="row">
+
+            <div class="collage-img col-ms-5 col-sm-pull-7 col-md-6 col-pull-5">
+                <div class="albums row">
+                    <img class="album-img col-sm-6" src="img/Linkin-Park-Hybrid-Theory-Album.jpg">
+                    <img class="album-img col-sm-6" src="img/Linkin-Park-Meteora-Album.jpg">
+                    <img class="album-img col-sm-6" src="img/metallica-ride-the-lightning-album.jpeg">
+                    <img class="album-img col-sm-6" src="img/korn-follow-the-leader-album.jpg">
+                </div>
+            </div>
+
+
+            <div class="col-sm-7 col-sm-push-5 col-md-5 col-md-push-7">
+                <h2 class="text-klein-purple">
+                    What's on Spotify?
+                </h2>
+                <div>
+                    <h3 class="text-klein-purple">
+                        Music
+                    </h3>
+                    <p>
+                        There are millions of songs on spotify. Play your favorite, discover new tracks, and build your perfect collection.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-klein-purple">
+                        Playlists
+                    </h3>
+                    <p>
+                        You'll find readymade playlist to match your mood, put together by music fans and experts.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-klein-purple">
+                        New Releases
+                    </h3>
+                    <p>
+                        Hear this week's latest singles and albums, and check out what's hot in the top 50.  
+                    </p>
+                </div>         
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+
+<!-- IPHONE section -->
+<div class="jumbotron3">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 text-left text-white">
+
+                <div class="devices-section">
+
+                    <div class="text-container">
+                        <div>
+                            <h2>
+                                It's easy.
+                            </h2>
+                        </div>
+
+                        <div>
+                            <h3 class="text-aquamarine">
+                                It's easy.
+                            </h3>
+                            <p>
+                                Know what you want to listen to? Just search.
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="text-aquamarine">
+                                Browse
+                            </h3>
+                            <p>
+                                Check out the latest charts, brand new releases and great playlist for right now. 
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="text-aquamarine">
+                                Discover
+                            </h3>
+                            <p>
+                                Enjoy new music every Monday with your own...  
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="devices-container grid-overflow">
+                        <div class="row devices-container2">
+                            <div class="">
+                                <div class="iphone iphone-1">
+                                    <img src="img/phone-1.jpeg" class="iphone-img">
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="iphone iphone-2">
+                                    <img src="img/phone-2.jpg" class="iphone-img">
+                                </div>
+                                <div class="iphone iphone-3">
+                                    <img src="img/phone-3.png" class="iphone-img">
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="iphone iphone-4">
+                                    <img src="img/phone-4.png" class="iphone-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+
+
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- DEVICES SECTION -->
+<div class="jumbotron4 jumbotron-devices">
+    <div class="container-device">
+        <img class="devices-img" src="img/devices-img.png">
+        <div>
+            <h2><span class="text-white">
+                One account. Listen everywhere.
+            </span></h2>
+        </div>
+        <div>
+            <ul class="device-list text-white">
+                <li>Mobile</li>
+                <li>Computer</li>
+                <li>TABLET</li>
+                <li>CAR</li>
+            </ul> 
+
+            <ul class="device-list text-white">
+                <li>SPEAKER</li>
+                <li><a href="#">Playstation®</a></li>
+                <li>TV</li>
+                <li><a href="#">Web Player</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!-- SUSCRIPCION SECTION -->
+<div class="jumbotron5 jumbotron-suscriptions">
+    <div class="container   container-suscription">
+        <div class="row column-suscription">
+            <div class="col-md-10 col-text-suscription">
+                <div class="row">
+                    <div class="col-sm-10 col-lg-8 col-suscription-text-header">
+                        <div>
+                            <h1 class="suscription-text-title">
+                                <span class="text-white text-left row-title">
+                                    Go get music.
+                                </span>
+                            </h1>
+                        </div>
+                        <div>
+                            <p class="text-white text-left">
+                                Listen free.<br>
+                                Or go premium to play on-demand, anywhere.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-10 column-suscriptions-content">
+                        <div class="suscription-content1">
+                            <div class="price-contianer">
+                                <h3 class="price-title text-aquamarine">Spotify</h3>
+                                <h3 class="price text-white price-month">
+                                    $0.00 <span class="month text-aquamarine"> / month</span>
+                                </h3>
+                            </div>
+                            <div class="clearfix"></div>
+                            <ul class="details-subscriptions text-white">
+                                <li>
+                                    Enjoy your favorite albums and artists, with occasinals ads.
+                                </li>
+                            </ul>
+                            <a href="#" class="btn btn-solid btn-suscription btn-primary">
+                                GET SPOTIFY FREE 
+                            </a>
+                        </div>
+
+                        <div class="clearfix"></div>
+
+                        <div class="animated animatedFadeInUp fadeInUp">
+                            <div class="price-contianer">
+                                <h3 class="price-title text-aquamarine">
+                                    Spotify Premium
+                                </h3>
+                                <h3 class="price text-white">
+                                    $0.99 <span class="month text-aquamarine"> /3 months</span>
+                                </h3>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-suscription-tour">
+                                <div class="tour-variation">
+                                    <p class="h3-sub text-white">
+                                        <a href="#">Family</a> and <a href="#">student</a> offers available
+                                    </p>
+
+                                    <p class="text-white">sales for $0.99/month</p>
+                                </div>
+                                <ul class="details-subscriptions text-white">
+                                    <li>Play on-demand.</li>
+                                    <li>Listen Offline.</li>
+                                    <li>No ads.</li>
+                                    <li>High Quality Audio.</li>
+                                </ul>
+                            </div>
+                            <a class="btn btn-solid btn-suscription btn-primary">GET SPOTIFY PREMIUM</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-overflow hidden-xs hidden-sm">
+            <div class="animated animatedFadeInUp fadeInUp">
+                <div class="nexus img-background-suscription">
+                    <img src="img/subscription-secton-img-.jpg" class="subscription-secton-img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="text-center legal text-white">
+        Only $9.99/month after. Offer not available to users who tried premium. <a href="#">Terms apply</a>
+    </p>
+</div>
+
+<!-- FOOTER SECTION -->
+
+<footer role="contentinfo" class="footer footer-highlight-aquamarine">
+    <div class="container">
+        <nav class="row">
+
+            <!-- LOGO FOOTER -->
+            <div class="col-xs-12 col-md-2 footer-logo-container">
+                <div class="footer-logo">
+                    <!-- <a href="#">Spotify</a> -->
+                </div>
+                <span class="footer-logo-text">Spotify</span>
+            </div>
+
+
+            <!-- COMPANY -->
+            <div class="col-xs-6 col-sm-4 col-md-2">
+                <h3 class="nav-title">Company</h3>
+                <ul class="nav footer-nav">
+                    <li><a href="#" id="nav-link-about">About</a></li>
+                    <li><a href="#" id="nav-link-jobs">Jobs</a></li>
+                    <li><a href="#" id="nav-link-press">Press</a></li>
+                    <li><a href="#" id="nav-link-news">News</a></li>
+                </ul>
+            </div>
+
+            <!-- COMMUNITIES -->
+            <div class="col-xs-6 col-sm-4 col-md-2">
+                <h3 class="nav-title">Communities</h3>
+                <ul class="nav footer-nav">
+                    <li><a href="#" id="nav-link-artists">For Artists</a></li>
+                    <li><a href="#" id="nav-link-developers">Developers</a></li>
+                    <li><a href="#" id="nav-link-brands">Brands</a></li>
+                </ul>
+            </div>
+
+            <!-- USEFUL LINKS -->
+            <div class="col-xs-6 col-sm-4 col-md-2">
+                <h3 class="nav-title">Useful Links</h3>
+                <ul class="nav footer-nav">
+                    <li><a href="#" id="nav-link-help">Help</a></li>
+                    <li><a href="#" id="nav-link-gift">Gift</a></li>
+                    <li class="hidden-xs"><a href="#" id="nav-link-play">Web Player</a></li>
+                </ul>
+            </div>
+
+            <!-- SOCIAL MEDIAS -->
+            <div class="col-sx-12 col-md-4 col-social ">
+                <ul class="nav">
+                    <li class="social-img"><a href="#"><img alt="instagram" src="img/instagram-icon.svg"></a></li>
+                    <li class="social-img"><a href="#"><img alt="twitter" src="img/twitter-icon.svg"></a></li>
+                    <li class="social-img"><a href="#"><img alt="facebook" src="img/facebook-icon.svg"></a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="inferior-footer">
+        <!-- NAV BAR  DE ABAJO IZQUIERDA-->
+            <nav class="row row-small">
+                <div class="col-xs-8 col-md-6 footer-nav-legal">
+                    <ul class="nav nav-small">
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- NAV BAR ABAJO DERECHA -->
+            <div class="col-xs-4 col-md-6 text-right market-us">
+                <a class="market" href="#" title="Click to change">
+                    <div class="media market-media-us">
+                        <div class="media-body media-middle">
+                            USA
+                        </div>
+                        <div class="media-right media-middle">
+                            <!-- <img class="media-object flag-icon flag-icon-us-img" src="img/us-icon.svg"> -->
+                            <span class="media-object flag-icon flag-icon-us"></span>
+                        </div>
+                    </div>
+                </a>
+                <small class="copyright market-media-us">&copy; 2017 Spotify AB</small>
+            </div>
+        </div>
+
+
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="bootstrap5/js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
